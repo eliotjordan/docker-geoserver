@@ -1,4 +1,4 @@
-FROM jolokia/tomcat-8.0
+FROM consol/tomcat-8.0
 
 RUN wget -q http://sourceforge.net/projects/geoserver/files/GeoServer/2.5.1/geoserver-2.5.1-war.zip -O /tmp/geoserver.zip
 
